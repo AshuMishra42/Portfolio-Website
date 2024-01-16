@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ankush - Developer - Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        body {
+            background-color: rgb(0, 0, 33);
+            color: white;
+            font-family: 'poppins', sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color: rgb(18, 18, 62);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul a:hover {
+            color: rgb(153, 153, 226);
+            font-size: 1.04rem;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        main hr {
+            border: 0;
+            background: #9c97f1;
+            height: 1.2px;
+            margin: 40px 84px;
+        }
+
+        .left {
+            font-size: 1.5rem;
+        }
+
+        .firstsection {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 80px 0;
+        }
+
+        .firstsection>div {
+            width: 30%;
+        }
+
+        .leftsection {
+            font-size: 2.5rem;
+        }
+
+        .leftsection .button {
+            padding: 50px 0;
+        }
+
+        .leftsection .btn {
+            padding: 12px;
+            color: white;
+            border: 2px solid white;
+            background: #1e2167;
+            border-radius: 6px;
+            font-size: 20px;
+            cursor: pointer;
+
+        }
+
+        .rightsection img {
+            width: 80%;
+        }
+
+        .purple {
+            color: rgb(170, 107, 220);
+        }
+
+        .grey {
+            color: gray;
+        }
+
+        #element {
+            color: rgb(170, 107, 220);
+        }
+
+        .sectionsecond {
+
+            max-width: 80vw;
+            margin: auto;
+        }
+
+        .sectionsecond h1 {
+            font-size: 1.02rem;
+        }
+
+        .sectionsecond .box {
+            width: 80vw;
+            background-color: white;
+            height: 2px;
+            margin: 56px 0;
+            display: flex;
+        }
+
+        .sectionsecond .vertical {
+            height: 93px;
+            width: 1px;
+            background-color: white;
+            margin: 0 145px;
+        }
+
+        .img-top {
+            width: 23px;
+            position: relative;
+            top: -32px;
+            left: -9px;
+        }
+
+        .title {
+            position: relative;
+            top: 75px;
+            width: 150px;
+
+        }
+
+        .Desc {
+            position: relative;
+            top: 86px;
+            width: 150px;
+            font-size: 9px;
+            color: gray;
+        }
+
+        footer {
+            background-color: #0e0e1a;
+        }
+
+        .footer {
+            display: flex;
+            padding: 23px 122px;
+            justify-content: space-evenly;
+        }
+
+        .footer ul {
+            list-style: none;
+        }
+
+        .footer>div {
+            width: 223px;
+        }
+
+        footer .footer-rights {
+            text-align: center;
+            color: gray;
+            font-size: 14px;
+            padding: 12px 0;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Ankush's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a> </li>
+                    <li> <a href="/">About</a> </li>
+                    <li> <a href="/">Services</a> </li>
+                    <li> <a href="/">Projects</a> </li>
+                    <li> <a href="/">Contact Me</a> </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <span class="firstsection">
+            <div class="leftsection">
+                Hi, My name is <span class="purple"> Ankush </span>
+                <div>and I am a Passionate</div>
+                <div>Web Developer</div>
+                <span id="element"></span>
+                <div class="button">
+                    <button class="btn"> Download Resume </button>
+                    <button class="btn"> Visit Github </button>
+                </div>
+            </div>
+            <div class="rightsection">
+                <img src="profilepic.png" alt="pic">
+            </div>
+        </span>
+        <hr>
+        <section class="sectionsecond"> <span class="grey"> What I have done so far </span>
+            <h1> Work Experience </h1>
+            <div class="box">
+                <div class="vertical">
+                    <img class="img-top" src="html-logo.png" alt="">
+                    <div class="title">
+                        Html Developer (2021-2023)
+                    </div>
+                    <div class="Desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint veniam ab reprehenderit assumenda
+                        beatae,
+                        magni, modi non repudiandae suscipit quae nobis eos earum.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="img-top" src="css-8.png" alt="">
+                    <div class="title">
+                        CSS Developer (2021-2023)
+                    </div>
+                    <div class="Desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint veniam ab reprehenderit assumenda
+                        beatae,
+                        magni, modi non repudiandae suscipit quae nobis eos earum.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="img-top" src="javascript logo.jpeg" alt="">
+                    <div class="title">
+                        script Developer (2023-2024)
+                    </div>
+                    <div class="Desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint veniam ab reprehenderit assumenda
+                        beatae,
+                        magni, modi non repudiandae suscipit quae nobis eos earum.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="img-top" src="node.webp" alt="">
+                    <div class="title">
+                        Node JS Developer (2023-2024)
+                    </div>
+                    <div class="Desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint veniam ab reprehenderit assumenda
+                        beatae,
+                        magni, modi non repudiandae suscipit quae nobis eos earum.
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h3> Ankush developer Portfolio</h3>
+            </div>
+            <div class="footer-second">
+                <ul>
+                    <li>Home</li>
+                    <li>About me </li>
+                    <li>Services</li>
+                    <li>Contact me</li>
+                </ul>
+            </div>
+            <div class="footer-third">
+                <ul>
+                    <li>Home</li>
+                    <li>About me </li>
+                    <li>Services</li>
+                    <li>Contact me</li>
+                </ul>
+            </div>
+            <div class="footer-fourth">
+                <ul>
+                    <li>Home</li>
+                    <li>About me </li>
+                    <li>Services</li>
+                    <li>Contact me</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-rights">
+            Copyright &#169; WWW.ankushportfolio.com ! ALL Rights Reserved
+        </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <!-- Setup and start animation! -->
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Namaste', 'All of You', 'Join our', 'Community'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+</body>
+
+</html>
